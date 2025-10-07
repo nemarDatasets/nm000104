@@ -1,0 +1,27 @@
+{
+  "onset": {
+    "Description": "Event onset time",
+    "Units": "seconds"
+  },
+  "duration": {
+    "Description": "Event duration",
+    "Units": "seconds"
+  },
+  "sample": {
+    "Description": "Event onset sample (at 2000 Hz)",
+    "Units": "samples"
+  },
+  "value": {
+    "Description": "Event type: keystroke_<key> for key presses, prompt for text prompts displayed to participant",
+    "Levels": {
+      "keystroke": "Key press event (key name follows underscore)",
+      "prompt": "Text prompt displayed to participant"
+    }
+  },
+  "key": {
+    "Description": "Key pressed (for keystroke events only)"
+  },
+  "prompt_text": {
+    "Description": "Text prompt displayed to participant (for prompt events only)"
+  }
+}

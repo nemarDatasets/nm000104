@@ -1,0 +1,20 @@
+{
+  "Name": "emg2qwerty",
+  "BIDSVersion": "BEP-042",
+  "License": "CC-BY-NC-SA-4.0",
+  "Authors": [
+    "Meta Reality Labs CTRL-labs",
+    "Seyed Yahya Shirazi"
+  ],
+  "ReferencesAndLinks": [
+    "https://github.com/facebookresearch/emg2qwerty",
+    "https://arxiv.org/abs/2410.20081"
+  ],
+  "DatasetDOI": "",
+  "GeneratedBy": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ]
+}

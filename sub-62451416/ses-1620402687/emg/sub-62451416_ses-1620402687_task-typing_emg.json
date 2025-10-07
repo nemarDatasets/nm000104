@@ -1,0 +1,26 @@
+{
+  "TaskName": "typing",
+  "TaskDescription": "Touch typing on a QWERTY keyboard while wearing EMG wristbands. Participants typed prompted text.",
+  "InstitutionName": "Meta Reality Labs",
+  "InstitutionAddress": "",
+  "Manufacturer": "CTRL-Labs at Meta Reality Labs",
+  "ManufacturersModelName": "sEMG Research Device (sEMG-RD)",
+  "SamplingFrequency": 2000,
+  "PowerLineFrequency": 60,
+  "HardwareFilters": {
+    "Highpass": {
+      "CutoffHz": 20
+    },
+    "Lowpass": {
+      "CutoffHz": 850
+    }
+  },
+  "SoftwareFilters": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDuration": 858.648,
+  "EMGChannelCount": 32,
+  "EMGPlacementScheme": "Other",
+  "EMGPlacementSchemeDescription": "Two wristbands with 16 dry electrodes each, placed on left and right wrists. See channels.tsv for details.",
+  "EMGReference": "bipolar",
+  "EMGGround": "n/a"
+}
