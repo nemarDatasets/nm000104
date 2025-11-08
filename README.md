@@ -263,7 +263,7 @@ Non-Commercial, Share Alike CC-BY-NC-SA 4.0
 Sivakumar, V., Seely, J., Du, A., Bittner, S.R., Berenzweig, A.,
 Bolarinwa, A., Gramfort, A., & Mandel, M.I. (2024).
 emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography.
-https://github.com/facebookresearch/emg2qwerty
+arXiv:2410.20081. https://github.com/facebookresearch/emg2qwerty
 ```
 
 ## Data Curator
