@@ -1,0 +1,31 @@
+{
+    "Name": "emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography",
+    "BIDSVersion": "1.11.0",
+    "License": "CC-BY-NC-SA-4.0",
+    "Authors": [
+        "Viswanath Sivakumar",
+        "Jeffrey Seely",
+        "Alan Du",
+        "Sean R. Bittner",
+        "Adam Berenzweig",
+        "Anuoluwapo Bolarinwa",
+        "Alexandre Gramfort",
+        "Michael I. Mandel"
+    ],
+    "Acknowledgements": "Data collected by Meta Reality Labs CTRL-labs. BIDS conversion was done at SCCN, INC, UCSD.",
+    "HowToAcknowledge": "Please cite: Sivakumar, V., Seely, J., Du, A., Bittner, S.R., Berenzweig, A., Bolarinwa, A., Gramfort, A., & Mandel, M.I. (2024). emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography. arXiv:2410.20081. https://github.com/facebookresearch/emg2qwerty",
+    "Funding": "Meta Reality Labs",
+    "ReferencesAndLinks": [
+        "https://github.com/facebookresearch/emg2qwerty",
+        "https://arxiv.org/abs/2410.20081"
+    ],
+    "DatasetDOI": "10.5281/zenodo.17287903",
+    "EthicsApprovals": "Approved by an independent external Institutional Review Board (IRB). Participation was voluntary, participants provided informed consent, and data have been de-identified.",
+    "GeneratedBy": [
+        {
+            "Name": "EEG-BIDS",
+            "Version": "10.3",
+            "Description": "BIDS conversion tool"
+        }
+    ]
+}
