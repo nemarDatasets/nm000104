@@ -1,0 +1,31 @@
+name: BIDS Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: bids-validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Run BIDS validator
+        run: |
+          deno run -A jsr:@bids/validator . --json > validation.json
+          cat validation.json
+
+      - name: Check validation result
+        run: |
+          if jq -e '.valid == false' validation.json > /dev/null; then
+            echo "::error::BIDS validation failed"
+            jq '.issues[] | select(.severity == "error")' validation.json
+            exit 1
+          fi
+          echo "BIDS validation passed"
