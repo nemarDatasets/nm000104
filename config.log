@@ -1,1 +1,1 @@
-1768792326s annex.largefiles include=*.edf or include=*.bdf or include=*.set or largerthan=100kb
+1771835623s annex.largefiles include=*.edf or include=*.bdf or include=*.set or include=*.fdt or include=*.tsv.gz or (largerthan=100kb and not include=*.tsv and not include=*.json and not include=*.yml and not include=*.yaml and not include=*.md and not include=*.txt)
