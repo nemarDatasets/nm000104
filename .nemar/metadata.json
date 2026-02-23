@@ -1,0 +1,73 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Viswanath Sivakumar": {},
+    "Jeffrey Seely": {},
+    "Alan Du": {},
+    "Sean R. Bittner": {},
+    "Adam Berenzweig": {},
+    "Anuoluwapo Bolarinwa": {},
+    "Alexandre Gramfort": {},
+    "Michael I. Mandel": {}
+  },
+  "title": "emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography",
+  "license": "CC-BY-NC-SA-4.0",
+  "modalities": [
+    "emg"
+  ],
+  "resource_type_specific": "EMG Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000104",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000104",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.17287903",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.5281/zenodo.17613953",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "description": "emg2qwerty is a large-scale surface electromyography (sEMG) dataset comprising 1,135 sessions from 108 participants performing touch typing on a QWERTY keyboard. The dataset contains 5.26 million keystroke events recorded from wrist-mounted 32-channel sEMG devices, totaling 346.4 hours of data. Designed to enable keyboard-free text input through direct decoding of typing intent from neuromuscular activity, this dataset supports research in sequence-to-sequence learning, cross-user generalization, domain adaptation, and high-bandwidth brain-computer interfaces for AR/VR and accessibility applications.",
+  "methods_description": "Participants performed touch typing on an Apple Magic Keyboard while wearing two sEMG Research Devices (one per wrist), each with 16 differential electrode pairs sampled at 2000 Hz with 12-bit resolution. Text prompts consisted of random dictionary words and Wikipedia sentences. Ground truth keystrokes were recorded via keylogger with ±0.5 ms precision. Between sessions, electrode bands were completely removed and re-donned to simulate realistic electrode placement variability. High-pass filtering at 40 Hz, clock drift correction, and temporal alignment were applied during preprocessing.",
+  "keywords": [
+    {
+      "term": "surface electromyography"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "sequence-to-sequence learning"
+    },
+    {
+      "term": "domain adaptation"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "keystroke decoding"
+    },
+    {
+      "term": "transfer learning"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Meta Reality Labs"
+    }
+  ],
+  "source_hash": "7aad01176fc2efa5041b115275e12b4c44bdeb9bf8843369f98a9202bfdae042"
+}
